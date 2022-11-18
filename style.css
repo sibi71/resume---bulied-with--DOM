@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+.container{
+    margin: 0 10% 10% 10%;
+    width: 80%;
+   
+   
+    
+}
+.profile,.skills,.work,.edu,.imgcontainer{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    border-radius: 40px;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.profile:hover,.skills:hover,.work:hover,.edu:hover,.imgcontainer:hover{
+    box-shadow: 0 0 20px black;
+   
+    
+}
+.picon,.sicon,.wicon,.eicon{
+    margin-left: 20px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: orange;
+   
+}
+h4,h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 95, 95);
+}
+h4{
+    color: rgb(179, 179, 179);
+}
+.skills label{
+    padding: 15px;
+}
+label{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+input{
+    width: 40%;
+    
+}
+.imgcontainer{
+    position: sticky;
+    top: -1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: brown;
+}
+img{
+    width: 20%;
+    border-radius:70%;
+}
+.imgcontainer h1{
+    margin: 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.imgcontainer p{
+    color: rgb(0, 0, 0);
+}
